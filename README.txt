@@ -1,7 +1,7 @@
-##CAN Bus Data Evaluation Tool
+# CAN Bus Data Evaluation Tool
 The CAN Bus Data Evaluation Tool is a Python script designed to analyze, visualize, and summarize CAN bus data from various car models. This tool enables users to process CSV files, generate line graphs for data visualization, and assess the timing status of specific signals from sensors.
 
-##Table of Contents
+## Table of Contents
 Prerequisites
 Installation
 Usage
@@ -22,7 +22,7 @@ Pandas
 Matplotlib
 Joblib
 
-##Installation
+## Installation
 Clone or download this repository to your local machine.
 
 Set up a cache directory to store cached data using the cache_loc variable in the script.
@@ -41,12 +41,12 @@ Deep_Dive_RADAR
 Deep_Dive_Front_CAMERA  (Available for "Assist_plus" model)
 Continue selecting options until you are done. To exit the program and generate PDF plots, enter "STOP."
 
-Output
+## Output
 Generated Graphs
 The script generates line graphs for the selected data analysis options.
 Each graph corresponds to a specific signal or sensor.
 CSV Data Files
 The tool saves the processed CSV data files in the output directory.
 Files are named based on the selected car model and timestamp.
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
